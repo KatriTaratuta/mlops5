@@ -5,7 +5,7 @@ services:
     volumes:
       - model_volume:/model
     ports:
-      - "5000:5000"
+      - "5000:5000"    
 
  streamlit_app:
     build: ./streamlit_app
